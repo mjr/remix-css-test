@@ -7,5 +7,5 @@ export function links() {
 }
 
 export default function Blog() {
-  return <h1>Blog <Link to="/">Home</Link> | <Link to="/dashboard">Dashboard</Link></h1>
+  return <h1>Blog <Link to="/dashboard">Dashboard</Link> | <Link to="/">Home</Link></h1>
 }
